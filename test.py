@@ -1,6 +1,6 @@
 import openai
 
-gpt_key=["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",'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','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']
+gpt_key="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"
 
 def process_using_gpt(value, key):
     openai.api_key = key
@@ -14,4 +14,4 @@ def process_using_gpt(value, key):
     )
     print(response['choices'][0]['text'])
 
-process_using_gpt('nội thất sang trọng và đẳng cấp.', gpt_key[0])
+process_using_gpt('nội thất sang trọng và đẳng cấp.', gpt_key)
